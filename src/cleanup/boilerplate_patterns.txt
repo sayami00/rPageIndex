@@ -1,0 +1,19 @@
+# Corpus-derived boilerplate patterns (one regex per line, case-insensitive)
+# Add patterns specific to your document corpus here.
+
+# Common footer/header patterns
+^\s*footer\s*$
+^\s*header\s*$
+
+# Document metadata noise
+^(document\s+number|doc\s+no\.?|ref(erence)?\s+no\.?)\s*[:\-]?\s*\S+$
+
+# Legal boilerplate
+^this\s+(document|page|report)\s+is\s+(confidential|proprietary)
+^unauthorized\s+(use|distribution|copying)
+
+# Version/revision stamps
+^(rev(ision)?|version|ver\.?)\s+[\d\.]+\s*$
+
+# Print dates
+^(printed|generated|produced)\s+(on|by)\s+
