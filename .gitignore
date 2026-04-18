@@ -13,3 +13,4 @@ architecture.md
 retrieval_spec.md
 schema_overview.md
 .pytest_cache
+requirements-dev.txt

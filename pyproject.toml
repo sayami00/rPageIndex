@@ -3,9 +3,18 @@ name = "pageindex"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 dependencies = [
     "pydantic>=2.0",
+    "pdfplumber>=0.10",
+    "python-docx>=1.1",
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "pytesseract>=0.3",
+    "pdf2image>=1.17",
+    "Pillow>=10.0",
 ]
 
 [project.optional-dependencies]
