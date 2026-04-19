@@ -53,6 +53,9 @@ class Candidate(BaseModel):
     source_file: str
     page_number: int
 
+    # Section context (populated from BM25 result dict when available)
+    section_path: str = ""
+
     # BM25 scores
     bm25_raw: float
     bm25_normalized: float
